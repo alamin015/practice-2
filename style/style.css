@@ -69,3 +69,60 @@ Banner css
     cursor: pointer;
     background: #c52323;
 }
+/* --------------------------------------
+Donate css 
+-----------------------------------------*/
+
+.donate{
+    padding: 60px 0;
+}
+.donate_content{
+    text-align: center;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 30px;
+}
+.donate_content h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+}
+.donate_content p{
+    font-size: 18px;
+    color:#1d1d1d;
+}
+
+.donate_counter{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.donate_counter .counter_item{
+    padding: 50px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.075);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.counter_item span{
+    font-weight: 600;
+    font-size: 25px;
+    color:#1d1d1db4;
+    transition: all 0.2s ease-in-out;
+}
+.counter_item:hover{
+    border: 2px solid #dd5656;
+    background: #dd565611;
+    cursor: pointer;
+    box-shadow: 3px 3px 12px #dd56561f;
+}
+.counter_item:hover span{
+    color: #dd5656;
+}
