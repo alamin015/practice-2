@@ -31,7 +31,11 @@ span {
   border-radius: 5px;
   transition: all 0.2s ease-in-out;
 }
-
+ 
+.btn:hover{
+    cursor: pointer;
+    background: #c52323;
+}
 /* --------------------------------------
 Banner css 
 -----------------------------------------*/
@@ -65,10 +69,6 @@ Banner css
   color: #fcf3f3;
 }
 
-.banner_content .btn:hover{
-    cursor: pointer;
-    background: #c52323;
-}
 /* --------------------------------------
 Donate css 
 -----------------------------------------*/
@@ -98,6 +98,7 @@ Donate css
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 .donate_counter .counter_item{
     padding: 50px;
@@ -125,4 +126,35 @@ Donate css
 }
 .counter_item:hover span{
     color: #dd5656;
+}
+
+.other_donate{
+    text-align: center;
+}
+.other_donate form{
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+.other_donate input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-color: #ddd;
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    border-bottom: 2px solid #ddd;
+    font-size: 18px;
+    color:#1d1d1db4;
+}
+.other_donate form ::placeholder{
+    color: #1d1d1db4;
+    text-transform: capitalize;
+}
+.other_donate form .btn{
+    margin-top: 30px;
 }
