@@ -14,7 +14,8 @@
 Variable css 
 -----------------------------------------*/
 :root {
-  --primary_color: #dd5656;
+  /* --primary_color: #dd5656; */
+  --primary_color: #fe5959;
   --btn-hover: #c52323;
 }
 
@@ -95,7 +96,7 @@ Donate css
 .donate {
   padding: 50px 0;
 }
-.donate_content {
+.donate_content,.update_content {
   text-transform: capitalize;
   text-align: center;
   width: 100%;
@@ -220,7 +221,7 @@ How to contribute  css
   display: flex;
   align-items: center;
   justify-content: space-between;
-  gap: 20px;
+  gap: 30px;
 }
 .contribute_text,.contribute_img,.survive_text,.survive_img{
   flex: 1;
@@ -252,6 +253,47 @@ Survive css
 
 
 
+
+/* --------------------------------------
+Update  css 
+-----------------------------------------*/
+.update{
+  padding: 50px 0;
+}
+.subscribe_area{
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 100px;
+  background: #c72a2a6b;
+  text-align: center;
+}
+.subscribe_area form{
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  height: 50px;
+}
+.subscribe_area form input{
+  flex: 2;
+  border: none;
+  background: transparent;
+  padding: 5px 8px;
+  outline:  none;
+  color:rgba(0, 0, 0, 0.74);
+  font-size: 18px;
+}
+.subscribe_area form input::placeholder{
+  color:rgba(0, 0, 0, 0.74);
+  font-size: 18px;
+}
+.subscribe_area form .btn{
+  border-radius: 0 5px 5px 0;
+  height: 50px;
+}
 
 /* --------------------------------------
 How to contribute  css 
