@@ -208,6 +208,51 @@ Donate Plan css
 .card_plan .card_item p {
   font-size: 18px;
 }
+
+
 /* --------------------------------------
-Donate css 
+How to contribute  css 
+-----------------------------------------*/
+.contribute{
+  padding: 50px 0;
+}
+.contribute_content,.survive_content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+}
+.contribute_text,.contribute_img,.survive_text,.survive_img{
+  flex: 1;
+}
+.text_title{
+  font-size: 35px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 25px;
+}
+.text_description-top,.text_description-bottom{
+  font-size: 18px;
+}
+.text_description-bottom{
+  margin: 10px 0px 25px 0px;
+}
+.contribute_img img,.survive_img img{
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+}
+/* --------------------------------------
+Survive css 
+-----------------------------------------*/
+.survive{
+  padding: 50px 0;
+}
+
+
+
+
+
+/* --------------------------------------
+How to contribute  css 
 -----------------------------------------*/
