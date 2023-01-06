@@ -113,14 +113,16 @@ Donate css
 }
 
 .donate_counter {
+  width: 100%;
+  max-width: 800px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
 }
 .donate_counter .counter_item {
-  padding: 50px;
+  padding: 35px;
   box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.075);
   display: flex;
   align-items: center;
