@@ -64,21 +64,12 @@ Banner css
   position: relative;
   width: 100%;
   height: 90vh;
-  background: linear-gradient(to bottom,rgba(0, 0, 0, 0.274),rgb(0, 0, 0));
-}
-.banner::before{
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  background-image: url("../Assets/img/donation0.jpg");
+  background:linear-gradient(to bottom,rgba(0, 0, 0, 0.274),rgb(0, 0, 0)), url("../Assets/img/donation0.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  z-index: -1;
 }
+
 .banner_content {
   position: absolute;
   left: 50%;
@@ -88,7 +79,7 @@ Banner css
   color: #fff;
 }
 .banner_content h2 {
-  font-size: 50px;
+  font-size: 3rem;
   text-transform: capitalize;
 }
 .banner_content p {
